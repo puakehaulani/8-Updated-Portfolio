@@ -1,7 +1,7 @@
 # Updated Portfolio
 
-[Deployed Project]()  
-[Github Repo]()
+[Deployed Project](https://puakehaulani.github.io/8-Updated-Portfolio/)  
+[Github Repo](https://github.com/puakehaulani/8-Updated-Portfolio)
 
 ## About the Project
 
@@ -21,7 +21,7 @@ Bootstrap
 Clone the repo
 
 ```bash
-git clone
+git clone git@github.com:puakehaulani/8-Updated-Portfolio.git
 ```
 
 ## Contributing
