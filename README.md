@@ -8,9 +8,9 @@
 **Updated Portfolio** is Homework 8 for UW Coding Bootcamp. We were instructed to update our responsive portfolio that was created for Homework 2.  
 I included substantive updates to this assignment by replacing the lorem ipsum text and dummy images with information about me and images and links of my deployed homework assignments. I also finished by replacing the default Bootstrap styling with my own aesthetic. I also cleaned up my file structure to make it more in line with best practices.
 
-![Index]()  
-![Portfolio]()  
-![Contact]()
+![Index](assets/images/screenshots/index.png)  
+![Portfolio](assets/images/screenshots/portfolio.png)  
+![Contact](assets/images/screenshots/contact.png)
 
 ### Built With
 
