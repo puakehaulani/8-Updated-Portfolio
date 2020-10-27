@@ -7,38 +7,51 @@ html {
     padding-bottom: 30px;
     position: relative;
     background-image: linear-gradient(to bottom, transparent, black), url("../images/background.jpg");
-    /* Photo by Eriks Abzinovs from Pexels */
+    /* Photo by Brennan Burling on Unsplash */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Forum', cursive;
+    color: white
   }
-nav {
+  
+  nav {
     background-color: transparent;
+  }
+
+  .navbar-toggler{
+    color: white;
+    font-size: smaller;
   }
 
   #navbar-brand {
     padding: 10px;
     /* background-color: #4baaa4; */
     letter-spacing: 4px;
+    font-size: x-large;
     font-weight: bold;
     margin-left: 10px;
     color: white;
   }
   
   .container {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 50px;
   }
   
   .card {
-    border-radius: 0;
     border: 0;
+    background-color: rgba(0, 0, 0, .5)
   }
   
   h1 {
-    color: #4baaa4;
-    padding-top: 20px;
+    color: slategray;
+    /* padding-top: 20px; */
     font-weight: bold;
   }
-  
+  a {
+    color: steelblue;
+  }
+
   footer {
     clear: both;
     color: #777;
@@ -52,17 +65,13 @@ nav {
   }
   
   .btn-primary {
-    padding: 15px 30px 15px 30px;
-    background-color: #4baaa4;
-    margin-left: 5px;
+    background-color: steelblue;
     color: white;
-    margin-bottom: 30px;
-    border-radius: 0;
-    border-color: #4baaa4;
+    border-style: none;
   }
-  
-  .form-control {
-    border-radius: 0;
+
+  .links{
+    font-size: large;
   }
   
   p {
