@@ -6,14 +6,19 @@ html {
     min-height: 100%;
     padding-bottom: 30px;
     position: relative;
-    background-image: url("../images/background.jpg");
+    background-image: linear-gradient(to bottom, transparent, black), url("../images/background.jpg");
+    /* Photo by Eriks Abzinovs from Pexels */
+    font-family: 'Forum', cursive;
   }
-  
+nav {
+    background-color: transparent;
+  }
+
   #navbar-brand {
     padding: 10px;
-    background-color: #4baaa4;
+    /* background-color: #4baaa4; */
+    letter-spacing: 4px;
     font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
     margin-left: 10px;
     color: white;
   }
@@ -32,18 +37,14 @@ html {
     color: #4baaa4;
     padding-top: 20px;
     font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
   }
   
   footer {
     clear: both;
     color: #777;
-    background-color: #666;
+    background-color: transparent;
     padding: 10px;
     text-align: center;
-    border-top-style: solid;
-    border-top-color: #4baaa4;
-    border-top-width: 5px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -65,7 +66,6 @@ html {
   }
   
   p {
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
   }
 
